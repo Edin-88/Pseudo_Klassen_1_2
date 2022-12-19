@@ -1,0 +1,42 @@
+p::first-letter {
+color: #00ced1;
+text-transform: uppercase;
+font-size: 2em;
+}
+
+p::first-line {
+    text-transform: uppercase;
+    color: #483d8b;
+}
+
+h1::before {
+    content: "Hi!";
+    color: #32cd32;
+}
+
+h1 {
+    color: #2e8b57;
+}
+
+h2 {
+    color: #2e8b57;
+}
+
+h2::after {
+    content: "!";
+    color: #a020f0;
+}
+
+h3 {
+    color: #2e8b57;
+}
+
+h3::selection {
+    color: #a020f0;
+    background-color: #c71585;
+}
+
+div {
+    font-weight: 500;
+    font-size: 1.3em;
+}
